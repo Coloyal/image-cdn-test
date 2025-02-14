@@ -9,6 +9,7 @@ export function Welcome({message}: {message: string}) {
       </div>
 
       <div className="w-[500px]">
+        <h1>Netlify CDN</h1>
         <Image
           layout="fullWidth"
           cdn="netlify"

@@ -7,14 +7,6 @@ export function Welcome({message}: {message: string}) {
         <Image
           layout="fullWidth"
           cdn="netlify"
-          src="https://cdn.shopify.com/s/files/1/0551/4566/0472/products/PDP5.jpg"
-          breakpoints={[]}
-        />
-      </div>
-      <div className="w-[500px]">
-        <Image
-          layout="fullWidth"
-          cdn="netlify"
           src="https://images.e-lationshop.com/thumbnails/9199495_E462DC73CEA772BA62DA83E945877A49(1200x1200).jpg"
           breakpoints={[]}
         />

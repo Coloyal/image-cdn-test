@@ -16,5 +16,5 @@ for = "/assets/*"
 "Cache-Control" = "public, max-age=31560000, immutable"
 
 [images]
-  remote_images = ["https://cdn.shopify.com/.*"]
+  remote_images = ["https://cdn.shopify.com/.*", "https://images.e-lationshop.com/.*"]
 

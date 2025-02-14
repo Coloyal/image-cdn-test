@@ -4,6 +4,11 @@ export function Welcome({message}: {message: string}) {
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
       <div className="w-[500px]">
+        <h1>Normal image</h1>
+        <img src="https://cdn.shopify.com/s/files/1/0551/4566/0472/products/Main_c8ff0b5d-c712-429a-be00-b29bd55cbc9d.jpg?v=1655933474&width=800&height=1000&crop=center"></img>
+      </div>
+
+      <div className="w-[500px]">
         <Image
           layout="fullWidth"
           cdn="netlify"

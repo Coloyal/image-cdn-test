@@ -15,6 +15,9 @@ for = "/assets/*"
 [headers.values]
 "Cache-Control" = "public, max-age=31560000, immutable"
 
+for =  "/*.(webp|jpg|png|gif)"
+"Cache-Control" = "public, max-age=31560000, immutable"
+
 [images]
   remote_images = ["https://cdn.shopify.com/.*", "https://images.e-lationshop.com/.*"]
 
